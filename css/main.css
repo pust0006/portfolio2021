@@ -1,0 +1,359 @@
+/*sass --watch sass/:css/*/
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+body {
+  background-color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*nav*/
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 42, 76, 0.75);
+  box-shadow: 0px 0px 1px 0 black;
+  padding: 0px;
+  padding-left: 4px;
+}
+
+/* Jumbottron*/
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.paral p {
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 60px;
+}
+
+.paral h1 {
+  color: rgba(255, 255, 255, 0.8);
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 0px;
+  line-height: 100px;
+}
+
+.paralsec {
+  background-size: contain;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*Content*/
+
+#ava {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  background: white;
+  opacity: 0.4;
+  
+}
+
+.iconcontainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.iconbox {
+  background: #ffffff;
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 20px 25px;
+  text-align: right;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.iconbox-icon {
+  background-color: #AEBBC6;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-top: -70px;
+}
+
+.iconbox-icon span {
+  color: #fff;
+  font-size: 42px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 29px;
+  text-align: center;
+  /* vertical-align: middle; */
+  /* possbily delete this line above*/
+}
+
+
+
+.featureinfo h4 {
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.featureinfo > p {
+  font-weight: bold;
+  padding-top: 4px;
+  text-align: center;
+
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+  color: #747373;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.btn-default {
+  text-shadow: 0px 1px 0px #FFF;
+  background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);
+  background-repeat: repeat-x;
+  border-color: #CCC;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px;
+}
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7ebe0;
+  padding: 0.5rem;
+
+}
+
+.avatar img {
+  text-align: center;
+  max-width: 100%;
+  max-height: 100px;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+
+}
+/* Possibly elete this block
+.navbar-nav li.active > a {
+}
+ portfolio 
+.text-center {
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+}
+*/
+
+/* Portfolio Page below */
+.card-content {
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+  background: #ffffff;
+  border: 4px;
+  padding-top: 30px;
+}
+
+.card-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 1;
+}
+
+#yep {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: white;
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+#linkButton{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  display: block;
+  border-radius: 4px;
+}
+
+.card-img span h4 {
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 5px;
+  line-height: 0;
+}
+
+.card-desc {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.card-desc h3 {
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.card-desc p {
+  text-align: center;
+
+  color: #747373;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.btn-card {
+  background-image: linear-gradient(125deg, #405F79, #52CDDB);
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 0.5rem 0.5rem;
+  font-size: 0.81rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0.125rem;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #fff;
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+}
+
+.btn-card:hover {
+  background-image: linear-gradient(125deg, #52CDDB, #405F79);
+  color: white;
+}
+
+a.btn-card {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Form Css*/
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: #5543ca;
+  background: #5543ca;
+  background: -moz-linear-gradient(left #405F79 0%, #52CDDB 100%) !important;
+  background: -webkit-linear-gradient(left, #405F79 0%, #52CDDB 100%) !important;
+  background: linear-gradient(to right, #405F79 0%, #52CDDB 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: "Helvetica Neue", "Arial Black", Gadget, sans-serif;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #002A4C;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #2E869D;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+  transform: translateY(-24px);
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: black;
+  cursor: text;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  padding-bottom: 8px;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg, #405F79, #52CDDB);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  left: 36%;
+  position: relative;
+}
+
+/*# sourceMappingURL=main.css.map */
