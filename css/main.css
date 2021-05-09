@@ -7,10 +7,10 @@ body {
 
 /*nav*/
 .navbar {
-  width: 100%;
+
   background-color: rgba(0, 42, 76, 0.75);
   box-shadow: 0px 0px 1px 0 black;
-  padding: 0px;
+
   padding-left: 4px;
 }
 
